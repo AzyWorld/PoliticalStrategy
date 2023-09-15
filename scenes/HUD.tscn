@@ -1,0 +1,478 @@
+[gd_scene load_steps=37 format=2]
+
+[ext_resource path="res://scripts/HUD.gd" type="Script" id=1]
+[ext_resource path="res://Leto Text Sans Defect.otf" type="DynamicFontData" id=2]
+
+[sub_resource type="DynamicFont" id=2]
+size = 75
+outline_size = 3
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=5]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id=8]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_bottom_left = 28
+
+[sub_resource type="StyleBoxFlat" id=9]
+bg_color = Color( 0, 0, 0, 0.317647 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=10]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=11]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=12]
+size = 30
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=13]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_left = 28
+
+[sub_resource type="StyleBoxFlat" id=14]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_left = 28
+
+[sub_resource type="DynamicFont" id=6]
+size = 25
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=7]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_bottom_right = 30
+
+[sub_resource type="DynamicFont" id=15]
+size = 25
+outline_size = 2
+outline_color = Color( 0, 0, 0, 1 )
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=16]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+corner_radius_top_right = 30
+
+[sub_resource type="StyleBoxFlat" id=29]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+corner_radius_top_right = 30
+
+[sub_resource type="DynamicFont" id=17]
+size = 25
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=18]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=23]
+bg_color = Color( 0, 0.0666667, 0.329412, 0.960784 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=25]
+size = 25
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=26]
+bg_color = Color( 0, 0, 0, 0.317647 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=27]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=28]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=30]
+size = 25
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=31]
+bg_color = Color( 0, 0, 0, 0.317647 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=32]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=33]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=34]
+size = 25
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=35]
+bg_color = Color( 0, 0, 0, 0.317647 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=36]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=37]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=38]
+size = 25
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[sub_resource type="StyleBoxFlat" id=39]
+bg_color = Color( 0, 0, 0, 0.317647 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="StyleBoxFlat" id=40]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 1, 1, 1, 1 )
+
+[sub_resource type="StyleBoxFlat" id=41]
+bg_color = Color( 0, 0, 0, 0.470588 )
+border_width_left = 4
+border_width_top = 4
+border_width_right = 4
+border_width_bottom = 4
+border_color = Color( 0, 0, 0, 1 )
+
+[sub_resource type="DynamicFont" id=24]
+size = 25
+outline_size = 1
+font_data = ExtResource( 2 )
+
+[node name="HUD" type="CanvasLayer"]
+script = ExtResource( 1 )
+
+[node name="ZoomMinus" type="Button" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -184.0
+margin_right = -96.0
+margin_bottom = 88.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 2 )
+custom_styles/hover = SubResource( 5 )
+custom_styles/pressed = SubResource( 8 )
+custom_styles/normal = SubResource( 5 )
+enabled_focus_mode = 0
+text = "-"
+icon_align = 1
+
+[node name="ZoomPlus" type="Button" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -96.0
+margin_bottom = 88.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 2 )
+custom_styles/hover = SubResource( 9 )
+custom_styles/pressed = SubResource( 10 )
+custom_styles/normal = SubResource( 11 )
+enabled_focus_mode = 0
+text = "+"
+icon_align = 1
+
+[node name="Next" type="Button" parent="."]
+anchor_left = 1.0
+anchor_top = 1.0
+anchor_right = 1.0
+anchor_bottom = 1.0
+margin_left = -176.0
+margin_top = -88.0
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 12 )
+custom_styles/hover = SubResource( 13 )
+custom_styles/pressed = SubResource( 14 )
+custom_styles/normal = SubResource( 13 )
+enabled_focus_mode = 0
+text = "Выбор"
+icon_align = 1
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Description" type="Label" parent="."]
+anchor_right = 0.356
+anchor_bottom = 0.183
+margin_right = -0.480011
+margin_bottom = 0.159996
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_colors/font_outline_modulate = Color( 0, 0, 0, 1 )
+custom_constants/line_spacing = 8
+custom_fonts/font = SubResource( 6 )
+custom_styles/normal = SubResource( 7 )
+valign = 1
+autowrap = true
+
+[node name="Name" type="Button" parent="."]
+anchor_top = 0.883333
+anchor_right = 0.0671111
+anchor_bottom = 1.0
+margin_right = -0.480011
+focus_mode = 0
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 15 )
+custom_styles/hover = SubResource( 16 )
+custom_styles/pressed = SubResource( 29 )
+custom_styles/normal = SubResource( 16 )
+
+[node name="Resources" type="HBoxContainer" parent="."]
+anchor_left = 0.356
+anchor_right = 0.83
+anchor_bottom = 0.117
+margin_left = -0.480011
+margin_right = -0.400024
+margin_bottom = -0.16
+
+[node name="Money" type="Label" parent="Resources"]
+margin_right = 511.0
+margin_bottom = 56.0
+size_flags_horizontal = 3
+size_flags_vertical = 3
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 17 )
+custom_styles/normal = SubResource( 18 )
+align = 1
+valign = 1
+
+[node name="OptionsWindow" type="Control" parent="."]
+visible = false
+anchor_right = 1.0
+anchor_bottom = 1.0
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="Panel" type="Panel" parent="OptionsWindow"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+custom_styles/panel = SubResource( 23 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="UpPart" type="HBoxContainer" parent="OptionsWindow"]
+anchor_right = 1.0
+anchor_bottom = 0.083
+margin_bottom = 0.159996
+
+[node name="Trade" type="Button" parent="OptionsWindow/UpPart"]
+margin_right = 267.0
+margin_bottom = 40.0
+focus_mode = 0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 25 )
+custom_styles/hover = SubResource( 26 )
+custom_styles/pressed = SubResource( 27 )
+custom_styles/normal = SubResource( 28 )
+enabled_focus_mode = 0
+text = "Торговля"
+icon_align = 1
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Economics" type="Button" parent="OptionsWindow/UpPart"]
+margin_left = 271.0
+margin_right = 538.0
+margin_bottom = 40.0
+focus_mode = 0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 30 )
+custom_styles/hover = SubResource( 31 )
+custom_styles/pressed = SubResource( 32 )
+custom_styles/normal = SubResource( 33 )
+enabled_focus_mode = 0
+text = "Экономика"
+icon_align = 1
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="Diplomacy" type="Button" parent="OptionsWindow/UpPart"]
+margin_left = 542.0
+margin_right = 809.0
+margin_bottom = 40.0
+focus_mode = 0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 34 )
+custom_styles/hover = SubResource( 35 )
+custom_styles/pressed = SubResource( 36 )
+custom_styles/normal = SubResource( 37 )
+enabled_focus_mode = 0
+text = "Дипломатия"
+icon_align = 1
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="back" type="Button" parent="OptionsWindow/UpPart"]
+margin_left = 813.0
+margin_right = 1080.0
+margin_bottom = 40.0
+focus_mode = 0
+size_flags_horizontal = 3
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 38 )
+custom_styles/hover = SubResource( 39 )
+custom_styles/pressed = SubResource( 40 )
+custom_styles/normal = SubResource( 41 )
+enabled_focus_mode = 0
+text = "Назад"
+icon_align = 1
+__meta__ = {
+"_editor_description_": ""
+}
+
+[node name="ecs" type="Control" parent="OptionsWindow"]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="taxLabel" type="Label" parent="OptionsWindow/ecs"]
+anchor_left = 0.141
+anchor_top = 0.233
+anchor_right = 0.141
+anchor_bottom = 0.233
+margin_left = 146.36
+margin_top = 102.68
+margin_right = 386.36
+margin_bottom = 142.68
+custom_colors/font_color = Color( 1, 1, 1, 1 )
+custom_fonts/font = SubResource( 24 )
+text = "Уровень налогов:"
+align = 1
+valign = 1
+
+[node name="taxSlider" type="HSlider" parent="OptionsWindow/ecs"]
+anchor_left = 0.356
+anchor_top = 0.258
+anchor_right = 0.356
+anchor_bottom = 0.258
+margin_left = 369.76
+margin_top = 113.68
+margin_right = 857.76
+margin_bottom = 129.68
+
+[connection signal="pressed" from="ZoomMinus" to="." method="_on_ZoomMinus_pressed"]
+[connection signal="pressed" from="ZoomPlus" to="." method="_on_ZoomPlus_pressed"]
+[connection signal="pressed" from="Next" to="." method="_on_Next_pressed"]
+[connection signal="pressed" from="Name" to="." method="_on_Name_pressed"]
